@@ -21,7 +21,7 @@ COUNTRY_FILL = '#3d2420'
 CONTEXT_FILL = '#251510'
 CONTEXT_EDGE = '#3a2018'
 
-OUTPUT_DIR = Path(__file__).parent
+OUTPUT_DIR = Path(__file__).parent / 'assets'
 
 # Load Natural Earth data
 world = gpd.read_file("https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip")
